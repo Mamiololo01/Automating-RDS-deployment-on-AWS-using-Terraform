@@ -33,6 +33,7 @@ RDS terraform code is part of the terraform AWS repository. Clone it to your wor
 
 
 Provisioning RDS Using Terraform
+
 Follow the steps given in this section to provision an RDS instance.
 
 Note: For this demo, we will be using the MySQL RDS instance that is publicly accessible over port 3306. If you deploying it in project environemnt, modify the paramters to restrict access to only required IP ranges.
@@ -61,16 +62,19 @@ Step 2: Initialize terraform
 Once the variables are modified as per your requirements, go to the terminal and cd into environments/dev/rds directory.
 
 cd environments/dev/rds
+
 Inside the rds folder, you can find the main.tf file where it calls the rds module present in the modules directory as shown below.
 
 Initialize Terraform using the following command
 
 terraform init
+
 This command initializes terraform. Make sure to run the init command inside the environments/dev/rds directory.
 
 Step 3: To verify the configurations, run terraform plan with the variable file.
 
 terraform plan  -var-file=../../../vars/dev/rds.tfvars
+
 This command displays the plan which is going to execute.
 
 Step 4: Apply the terraform configurations.
@@ -78,6 +82,7 @@ Step 4: Apply the terraform configurations.
 After verifying, apply the configurations using the command given below.
 
 terraform apply -var-file=../../../vars/dev/rds.tfvars --auto-approve
+
 This command applies the changes to start the provisioning using the variables given in the rds.tfvars file. The --auto-approve flag automatically approves the provisioning without manual confirmation.
 
 Step 5: Validate provisioned RDS instances
