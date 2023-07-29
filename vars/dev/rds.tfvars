@@ -1,18 +1,18 @@
 # Network Vars
-region                      = "us-west-2"
-subnet_ids                  = ["subnet-058a7514ba8adbb07", "subnet-0dbcd1ac168414927", "subnet-032f5077729435858"]
+region                      = "us-east-1"
+subnet_ids                  = ["subnet-08b9cf9419906dc9d", "subnet-076f1b6dd01464bcc", "subnet-0a21b618796ce11e4"]
 multi_az                    = false
 publicly_accessible         = true
 
 # DB Vars
 db_engine                   = "mysql"
 db_storage_type             = "gp2"
-db_username                 = "techiescamp"
+db_username                 = "level4"
 db_instance_class           = "db.t2.micro"
 db_storage_size             = 20
 set_secret_manager_password = true
 set_db_password             = false
-db_password                 = "rdssecret"
+db_password                 = "l4secret"
 
 # Security Group Vars
 from_port                   = 3306
@@ -28,7 +28,7 @@ skip_final_snapshot         = true
 apply_immediately           = true
 
 # Tag Vars
-owner                       = "techiescamp-devops"
+owner                       = "level4-devops"
 environment                 = "dev"
-cost_center                 = "techiescamp"
-application                 = "techiescamp-commerce"
+cost_center                 = "level4"
+application                 = "level4-commerce"
