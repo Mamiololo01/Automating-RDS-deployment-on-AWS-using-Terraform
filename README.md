@@ -77,6 +77,10 @@ terraform plan  -var-file=../../../vars/dev/rds.tfvars
 
 This command displays the plan which is going to execute.
 
+<img width="1241" alt="Screenshot 2023-07-29 at 10 07 21" src="https://github.com/Mamiololo01/Automating-RDS-deployment-on-AWS-using-Terraform/assets/67044030/77e067d9-dca3-47c0-97c6-9d8156f1d5e1">
+
+<img width="1106" alt="Screenshot 2023-07-29 at 10 07 34" src="https://github.com/Mamiololo01/Automating-RDS-deployment-on-AWS-using-Terraform/assets/67044030/b6663007-148c-4024-bb37-746af38e5117">
+
 Step 4: Apply the terraform configurations.
 
 After verifying, apply the configurations using the command given below.
