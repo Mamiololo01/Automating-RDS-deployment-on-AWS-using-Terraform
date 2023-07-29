@@ -10,7 +10,10 @@ AWS CLI installed and configured with a Valid AWS account with permission to dep
 If you using an ec2 instance for provisioning, ensure you have a valid IAM role attached to the instance with RDS provisioning permissions.
 
 Terraform RDS Workflow
+
 The following image shows the RDS provisioning workflow using Terraform.
+
+![terraform-aws-rds](https://github.com/Mamiololo01/Automating-RDS-deployment-on-AWS-using-Terraform/assets/67044030/4878023f-ec64-435f-97a9-0f56c613a56c)
 
 Here is the workflow explanation.
 
