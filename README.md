@@ -91,7 +91,11 @@ Once the terraform is executed, you can validate the RDS instance by getting the
 
 terraform output
 
+<img width="1187" alt="Screenshot 2023-07-29 at 10 20 17" src="https://github.com/Mamiololo01/Automating-RDS-deployment-on-AWS-using-Terraform/assets/67044030/5b3f39d7-bc22-4f47-a35d-c44a7bf7d34a">
+
 Also, use the AWS console and verify all the RDS instance details.
+
+<img width="954" alt="Screenshot 2023-07-29 at 10 20 34" src="https://github.com/Mamiololo01/Automating-RDS-deployment-on-AWS-using-Terraform/assets/67044030/95e7fdc7-fe77-45eb-ae08-ef6140ae89e0">
 
 Try accessing the database using the username, password, and RDS endpoint as host. You can use MySQL client or MySQL workbench utility.
 
