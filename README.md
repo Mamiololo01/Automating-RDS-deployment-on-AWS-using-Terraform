@@ -108,3 +108,5 @@ If you have enabled secret management using secrets manager, you can retrieve th
 Step 5: To clean up the setup, execute the following command.
 
 terraform destroy -var-file=../../../vars/dev/rds.tfvars --auto-approve
+
+<img width="1204" alt="Screenshot 2023-07-29 at 10 35 33" src="https://github.com/Mamiololo01/Automating-RDS-deployment-on-AWS-using-Terraform/assets/67044030/f1e46f79-9e5f-4a9e-935f-5ca7bf44073b">
